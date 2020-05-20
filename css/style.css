@@ -1,0 +1,60 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(../img/bg-img-1.jpg);
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+option {
+    font-family: 'Montserrat', sans-serif;
+}
+
+select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5px;
+}
+
+.remv-img-btn {
+  position: absolute;
+  top: 14px;
+  left: 7%;
+  width: 16%;
+}
+
+.remv-img-btn {
+  color: black;
+}
+
+.imageWrap {
+  display: inline-block;
+  position: relative;
+  flex: 50%;
+  padding: 0 4px;
+  width: 150px;
+  height: 150px;
+}

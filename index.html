@@ -1,0 +1,21 @@
+<html>
+<head><meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"></head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body>
+  <img id="dogImage" src="https://dog.ceo/img/dog-api-logo.svg">
+  <button onClick="getRandomImage()">Click for a random image</button>
+
+  <select onChange="getListImages(this.value);" id="items"></select>
+  <button class="fetch-btn" type="submit">Fetch!</button>
+
+  <h1>Your Dog Collection</h1>
+  <div id="dogContainer">
+  <div class="row" id="row"><div class="column" id="column"></div></div>
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/dog-collection.js"></script>
+</body>
+</html>
